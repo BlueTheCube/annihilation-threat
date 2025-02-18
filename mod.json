@@ -1,0 +1,9 @@
+{
+  "name": "annihilation",
+  "displayName": "Annihilation",
+  "author": "BlueTheCube",
+  "description": "low threat becomes eradication",
+  "version": "zero",
+  "minGameVersion": "136",
+  "hidden": true
+}

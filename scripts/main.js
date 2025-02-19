@@ -27,3 +27,9 @@ Object.assign(Difficulty.eradication, {
     enemySpawnMultiplier: 5,
     waveTimeMultiplier: 0.6
 });
+
+Object.assign(StatusEffects.boss, {
+    damageMultiplier = 2.5,
+    healthMultiplier = 2,
+    damage = -0.1
+});

@@ -35,3 +35,9 @@ Events.on(ClientLoadEvent, () => {
         damage: -0.1
     });
 });
+
+Events.on(WorldLoadEvent, () => {
+    let enemyRules = Vars.state.rules.waveTeam.rules();
+    enemyRules.unitDamageMultiplier = 2;
+    enemyRules.blockDamageMultiplier = 2;
+});

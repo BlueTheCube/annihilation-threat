@@ -1,4 +1,6 @@
 Events.on(ClientLoadEvent, () => {
+    Color.scarlet = Color.valueOf("c74fff")
+    
     Object.assign(Difficulty.casual, {
         enemyHealthMultiplier: 1.5,
         enemySpawnMultiplier: 2,

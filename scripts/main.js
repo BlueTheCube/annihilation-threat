@@ -1,6 +1,4 @@
 Events.on(ClientLoadEvent, () => {
-    Pal.health = Color.valueOf("c74fff");
-    
     Object.assign(Difficulty.casual, {
         enemyHealthMultiplier: 1.5,
         enemySpawnMultiplier: 2,
@@ -20,14 +18,14 @@ Events.on(ClientLoadEvent, () => {
     });
     
     Object.assign(Difficulty.hard, {
-        enemyHealthMultiplier: 3.5,
-        enemySpawnMultiplier: 3.5,
+        enemyHealthMultiplier: 3.2,
+        enemySpawnMultiplier: 3.2,
         waveTimeMultiplier: 0.6
     });
     
     Object.assign(Difficulty.eradication, {
-        enemyHealthMultiplier: 5,
-        enemySpawnMultiplier: 5,
+        enemyHealthMultiplier: 3.9,
+        enemySpawnMultiplier: 3.5,
         waveTimeMultiplier: 0.6
     });
 

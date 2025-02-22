@@ -2,7 +2,8 @@
   "name": "annihilation",
   "displayName": "Annihilation",
   "author": "BlueTheCube",
-  "description": "low threat becomes eradication",
+  "subtitle": "low threat becomes eradication",
+  "description": "adds 4 new threats: annihilation, hellish, annulment and apollyon",
   "version": "zero",
   "minGameVersion": "147"
 }
